@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>A title</title>
+    <title>Hundjouren</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="js.js"></script>
   </head>
   <body>
-    Sample text
+    <div class="navbar">
+      <a href="#home">Hem</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">
+          Våra hundar
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#puppies">Valpar</a>
+          <a href="#adults">Fullvuxna</a>
+          <a href="#elderly">Äldre</a>
+        </div>
+      </div>
+      <a href="#terms">Adoptionsvillkor</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="support()">
+          Stöd oss
+        </button>
+        <div class="dropdown-content" id="myDropdown2">
+          <a href="#membership">Medlemskap</a>
+          <a href="#donations">Donationer</a>
+        </div>
+      </div>
+      <a href="#about">Om oss</a>
+      <a href="#contact">Kontakt</a>
+    </div>
+
+    <div id="light">
+      <div class="paper-light">
+        <h1 class="rubrik">Välkommen till adoptionsbyrån Hundjouren!</h1>
+
+        <p class="intro">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat blandit arcu, sed consequat dui
+          fermentum sed. Nullam nec diam tortor. Morbi sodales, ante ac euismod feugiat, massa justo vulputate lectus,
+          nec auctor arcu turpis vel eros. Curabitur vel scelerisque arcu, quis suscipit nunc. Aliquam vitae ipsum est.
+          Vestibulum mattis pharetra eleifend. Maecenas interdum ullamcorper massa id congue. Fusce varius hendrerit
+          mattis. Ut ac ex nibh. In ultrices tortor vitae sollicitudin imperdiet. Donec tristique tempus nibh, non
+          ultricies metus. Aliquam erat volutpat. Proin velit mi, luctus a mi sed, commodo ullamcorper ante. Donec
+          pulvinar erat at urna lobortis porttitor. Suspendisse commodo nunc augue, id molestie urna malesuada ac. Donec
+          varius orci nec sollicitudin pharetra.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
