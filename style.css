@@ -112,6 +112,31 @@ body {
   width: 60%;
 }
 
+#puppies {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.support, #about, #about2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .dog {
   margin: 15px;
 }
@@ -137,3 +162,10 @@ body {
   padding-top: 2%;
 }
 
+li {
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
