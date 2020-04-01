@@ -1,0 +1,196 @@
+/* Fixed sidenav, full height */
+.sidenav {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #8ec6a3;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    background-color: #f9bfe5;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: #f9bfe5;
+    color: black;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: white;
+  }
+
+body {
+  font-family: arial;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: #e5fdee
+  ;
+}
+
+.paper {
+  padding-right: 8px;
+  position: absolute;
+  top: 80px;
+  left: 300px;
+  right: 300px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), 3px 3px 10px rgba(0, 0, 0, 0.22);
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+.intro {
+  padding-left: 10px;
+}
+
+.rubrik {
+  text-align: center;
+  margin-top: -1px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.rubrik-bakgrund {
+  background-color: #f9bfe5;
+  padding-top: 1%;
+  margin-right: -8px;
+}
+
+#dogs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#puppies {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.support, #about, #about2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dog {
+  margin: 15px;
+}
+
+.dog:hover {
+  border: 2px solid #f9bfe5;
+}
+
+.row {
+  text-align:center;
+}
+
+.description-pic {
+  float: left;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+
+.description-text {
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+li {
+  padding: 10px;
+}
+
+.rubrik-support {
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #c68eb3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #af6195 ;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff2ff;
+  padding: 20px;
+  width: 800px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subject {
+  height: 200px;
+}
+
+#rubrik-form, #contact {
+  text-align: center;
+}

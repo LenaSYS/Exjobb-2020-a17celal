@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Titus</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="sidenav">
+        <a href="home.html">Hem</a>
+        <button class="dropdown-btn">Våra hundar
+        </button>
+        <div class="dropdown-container">
+            <a style="background-color: #f9bfe5;" href="puppies.html">Valpar</a>
+            <a href="adults.html">Fullvuxna</a>
+            <a href="seniors.html">Seniorer</a>
+        </div>
+        <a href="terms.html">Adoptionsvillkor</a>
+        <button class="dropdown-btn">Stöd oss
+        </button>
+        <div class="dropdown-container">
+            <a href="membership.html">Medlemskap</a>
+            <a href="donations.html">Donationer</a>
+        </div>
+        <a href="about.html">Om oss</a>
+        <a href="contact.html">Kontakt</a>
+    </div>
+
+    <div class="paper">
+        <div class="rubrik-bakgrund">
+            <h1 class="rubrik">Titus</h1>
+        </div>
+
+        <img class="description-pic" src="titus.jpg" alt="Pandora">
+        <p class="description-text">
+            Ålder: 3 mån <br>
+            Ras: Welsh corgi pembroke <br>
+            Kön: Hane <br>
+            Fungerar med andra hundar: Nej <br>
+            Fungerar med katter: Okänt <br>
+            Beskrivning: <br>
+            Titus är bara 3 månader men har redan flyttat flera gånger för att sedan bli övergiven.
+            Trots sin röriga bakgrund är han en glad och lekfull kille vars största problem i livet verkar vara vilken
+            leksak han ska välja att leka med.
+            Alla som träffar Titus faller för hans charm och påhitt och den familj som adopterar honom kommer inte att
+            få tråkigt.
+        </p>
+    </div>
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content.
+        This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

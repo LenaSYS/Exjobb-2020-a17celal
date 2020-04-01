@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mina</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="sidenav">
+        <a href="home.html">Hem</a>
+        <button class="dropdown-btn">Våra hundar
+        </button>
+        <div class="dropdown-container">
+            <a href="puppies.html">Valpar</a>
+            <a style="background-color: #f9bfe5;" href="adults.html">Fullvuxna</a>
+            <a href="seniors.html">Seniorer</a>
+        </div>
+        <a href="terms.html">Adoptionsvillkor</a>
+        <button class="dropdown-btn">Stöd oss
+        </button>
+        <div class="dropdown-container">
+            <a href="membership.html">Medlemskap</a>
+            <a href="donations.html">Donationer</a>
+        </div>
+        <a href="about.html">Om oss</a>
+        <a href="contact.html">Kontakt</a>
+    </div>
+
+    <div class="paper">
+        <div class="rubrik-bakgrund">
+          <h1 class="rubrik">Mina</h1>
+        </div>
+
+        <img class="description-pic" src="mina.jpg" alt="Mina">
+        <p class="description-text">
+          Ålder: 4 år <br>
+          Ras: Mops <br>
+          Kön: Hona <br>
+          Fungerar med andra hundar: Ja <br>
+          Fungerar med katter: Ja <br>
+          Beskrivning: <br>
+          Mina är en liten tjej med stor personlighet.
+          Hon verkligen älskar att stå i centrum och hennes jourhem beskriver henne som en liten charmig prinsessa!
+          Hon är social, både mot människor och hundar och kommer bra överens med katter.
+          Hon kan vara lite avvaktande mot stora hundar.
+        </p>
+      </div>
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content.
+        This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
