@@ -71,7 +71,7 @@ body {
     width: 60%;
   }
   
-  #puppies {
+  #puppies, #thanks {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -168,6 +168,10 @@ body {
     height: 200px;
   }
   
-  #rubrik-form, #contact {
+  .form, #contact {
     text-align: center;
+  }
+
+  select {
+    font-family: arial;
   }

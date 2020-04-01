@@ -13,29 +13,12 @@
 <body>
   <div class="navbar">
     <a href="home.html">Hem</a>
-    <div class="dropdown">
-      <button class="dropbtn" onclick="myFunction()">
-        Våra hundar
-      </button>
-      <div class="dropdown-content" id="myDropdown">
-        <a href="puppies.html">Valpar</a>
-        <a href="adults.html">Fullvuxna</a>
-        <a href="seniors.html">Seniorer</a>
-      </div>
-    </div>
+    <a href="dogs.html">Våra hundar</a>
     <a href="terms.html">Adoptionsvillkor</a>
-    <div class="dropdown">
-      <button class="dropbtn" onclick="support()">
-        Stöd oss
-      </button>
-      <div class="dropdown-content" id="myDropdown2">
-        <a href="membership.html">Medlemskap</a>
-        <a href="donations.html">Donationer</a>
-      </div>
-    </div>
+    <a href="support.html">Stöd oss</a>
     <a href="about.html">Om oss</a>
     <a class="active" href="contact.html">Kontakt</a>
-  </div>
+</div>
 
   <div class="paper">
     <div class="rubrik-bakgrund">
@@ -63,7 +46,7 @@
       </p>
     </div>
 
-    <h3 id="rubrik-form">Kontaktformulär</h3>
+    <h3 class="form">Kontaktformulär</h3>
     <div class="container">
       <form action="mailto:a17celal@student.his.se" method="post">
         <label>Namn</label>
@@ -76,7 +59,7 @@
         <input type="text" name="phone" placeholder="Ditt mobilnummer..">
 
         <label>Ämne</label>
-        <textarea id="subject" name="subject" placeholder="Skriv någonting.."></textarea>
+        <textarea style="font-family: arial;" id="subject" name="subject" placeholder="Skriv någonting.."></textarea>
 
         <input type="submit" value="Submit">
       </form>
