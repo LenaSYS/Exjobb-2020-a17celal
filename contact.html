@@ -2,98 +2,87 @@
 <html lang="en">
 
 <head>
-    <title>Kontakt</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Kontakt</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-    <div class="sidenav">
-        <a href="home.html">Hem</a>
-        <button class="dropdown-btn">Våra hundar
-        </button>
-        <div class="dropdown-container">
-            <a href="puppies.html">Valpar</a>
-            <a href="adults.html">Fullvuxna</a>
-            <a href="seniors.html">Seniorer</a>
-        </div>
-        <a href="terms.html">Adoptionsvillkor</a>
-        <button class="dropdown-btn">Stöd oss
-        </button>
-        <div class="dropdown-container">
-            <a href="membership.html">Medlemskap</a>
-            <a href="donations.html">Donationer</a>
-        </div>
-        <a href="about.html">Om oss</a>
-        <a style="background-color: #f9bfe5;" href="contact.html">Kontakt</a>
+  <div class="sidenav">
+    <a href="home.html">Hem</a>
+    <a href="dogs.html">Våra hundar</a>
+    <a href="terms.html">Adoptionsvillkor</a>
+    <a href="support.html">Stöd oss</a>
+    <a href="about.html">Om oss</a>
+    <a style="background-color: #f9bfe5;" href="contact.html">Kontakt</a>
+  </div>
+
+  <div class="paper">
+    <div class="rubrik-bakgrund">
+      <h1 class="rubrik">Kontakt</h1>
     </div>
 
-    <div class="paper">
-        <div class="rubrik-bakgrund">
-          <h1 class="rubrik">Kontakt</h1>
-        </div>
-    
-        <div id="contact">
-          <h3>Adress</h3>
-          <p class="contact">
-            STOCKHOLM<br>
-            Hundjouren<br>
-            Åkeshovs Gårdsväg 10<br>
-            168 38 BROMMA<br><br>
-          </p>
-    
-          <h3>E-post</h3>
-          <p class="contact">
-            info@hundjouren.se<br><br>
-          </p>
-    
-    
-          <h3>Telefon</h3>
-          <p class="contact">
-            08 – 20 38 48<br><br>
-          </p>
-        </div>
-    
-        <h3 id="rubrik-form">Kontaktformulär</h3>
-        <div class="container">
-          <form action="mailto:a17celal@student.his.se" method="post">
-            <label>Namn</label>
-            <input type="text" name="name" placeholder="Ditt namn..">
-    
-            <label>E-post</label>
-            <input type="text" name="email" placeholder="Din e-post..">
-    
-            <label>Mobilnummer</label>
-            <input type="text" name="phone" placeholder="Ditt mobilnummer..">
-    
-            <label>Ämne</label>
-            <textarea id="subject" name="subject" placeholder="Skriv någonting.."></textarea>
-    
-            <input type="submit" value="Submit">
-          </form>
-        </div>
-      </div>
+    <div id="contact">
+      <h3>Adress</h3>
+      <p class="contact">
+        STOCKHOLM<br>
+        Hundjouren<br>
+        Åkeshovs Gårdsväg 10<br>
+        168 38 BROMMA<br><br>
+      </p>
 
-    <script>
-        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content.
-        This allows the user to have multiple dropdowns without any conflict */
-        var dropdown = document.getElementsByClassName("dropdown-btn");
-        var i;
+      <h3>E-post</h3>
+      <p class="contact">
+        info@hundjouren.se<br><br>
+      </p>
 
-        for (i = 0; i < dropdown.length; i++) {
-            dropdown[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var dropdownContent = this.nextElementSibling;
-                if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none";
-                } else {
-                    dropdownContent.style.display = "block";
-                }
-            });
+
+      <h3>Telefon</h3>
+      <p class="contact">
+        08 – 20 38 48<br><br>
+      </p>
+    </div>
+
+    <h3 id="rubrik-form">Kontaktformulär</h3>
+    <div class="container">
+      <form action="mailto:a17celal@student.his.se" method="post">
+        <label>Namn</label>
+        <input type="text" name="name" placeholder="Ditt namn..">
+
+        <label>E-post</label>
+        <input type="text" name="email" placeholder="Din e-post..">
+
+        <label>Mobilnummer</label>
+        <input type="text" name="phone" placeholder="Ditt mobilnummer..">
+
+        <label>Ämne</label>
+        <textarea id="subject" name="subject" placeholder="Skriv någonting.."></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content.
+    This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
         }
-    </script>
+      });
+    }
+  </script>
 </body>
 
 </html>

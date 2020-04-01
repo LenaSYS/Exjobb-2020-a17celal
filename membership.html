@@ -12,27 +12,16 @@
 <body>
     <div class="sidenav">
         <a href="home.html">Hem</a>
-        <button class="dropdown-btn">Våra hundar
-        </button>
-        <div class="dropdown-container">
-            <a href="puppies.html">Valpar</a>
-            <a href="adults.html">Fullvuxna</a>
-            <a href="seniors.html">Seniorer</a>
-        </div>
+        <a href="dogs.html">Våra hundar</a>
         <a href="terms.html">Adoptionsvillkor</a>
-        <button class="dropdown-btn">Stöd oss
-        </button>
-        <div class="dropdown-container">
-            <a style="background-color: #f9bfe5;" href="membership.html">Medlemskap</a>
-            <a href="donations.html">Donationer</a>
-        </div>
+        <a style="background-color: #f9bfe5;" href="support.html">Stöd oss</a>
         <a href="about.html">Om oss</a>
         <a href="contact.html">Kontakt</a>
     </div>
 
     <div class="paper">
         <div class="rubrik-bakgrund">
-          <h1 class="rubrik">Medlemskap</h1>
+            <h1 class="rubrik">Medlemskap</h1>
         </div>
 
         <h3 class="rubrik-support">Hjälp oss att göra skillnad för bara 12.50 kr/mån*</h3>
@@ -40,17 +29,44 @@
         <img class="support" src="puppies-forest.jpg" alt="Puppies">
 
         <p class="intro">
-          Hundjouren är beroende av frivilligt stöd för att kunna fortsätta arbeta för djuren.
-          I gåvan ingår ditt medlemskap i Hundjouren och vetskapen att du är med och gör skillnad för djuren, varje dag!<br><br>
-            
-          Under 2019 räddade Hundjouren 391 hundar.
-          Detta kan vi göra tack vare våra månadsgivare som kontinuerligt stödjer vår verksamhet.
-          Vi räddar livet på minst 1 hund varje dag.
-          Men varje dag avlivas också helt underbara hundar som vi skulle kunna rädda – om vi hade fler som stöttade vår verksamhet.<br><br>
+            Hundjouren är beroende av frivilligt stöd för att kunna fortsätta arbeta för djuren.
+            I gåvan ingår ditt medlemskap i Hundjouren och vetskapen att du är med och gör skillnad för djuren, varje
+            dag!<br><br>
 
-          Bli månadsgivare idag! För endast 150kr/år kan du vara med och bidra till att fler hundar får det bättre ställt.
+            Under 2019 räddade Hundjouren 391 hundar.
+            Detta kan vi göra tack vare våra månadsgivare som kontinuerligt stödjer vår verksamhet.
+            Vi räddar livet på minst 1 hund varje dag.
+            Men varje dag avlivas också helt underbara hundar som vi skulle kunna rädda – om vi hade fler som stöttade
+            vår verksamhet.<br><br>
+
+            Bli månadsgivare idag! För endast 150kr/år kan du vara med och bidra till att fler hundar får det bättre
+            ställt.<br><br>
+
+            För att bli månadsgivare, vänligen fyll i formuläret nedan så hör vi av oss till Dig.
         </p>
-      </div>
+
+        <div class="container">
+            <form action="mailto:a17celal@student.his.se" method="post">
+                <label>Namn</label>
+                <input type="text" name="name" placeholder="Ditt namn..">
+
+                <label>E-post</label>
+                <input type="text" name="email" placeholder="Din e-post..">
+
+                <label>Mobilnummer</label>
+                <input type="text" name="phone" placeholder="Ditt mobilnummer..">
+
+                <label>Betalsätt:</label>
+                <select name="payments" form="paymentform">
+                    <option value="autogiro">Autogiro</option>
+                    <option value="faktura">Faktura</option>
+                    <option value="swish">Swish</option>
+                </select>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
 
     <script>
         /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content.
