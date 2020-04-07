@@ -11,29 +11,29 @@
 
   <body>
     <div class="navbar">
-      <a id="home" class="active" href="home.html">Hem</a>
+      <a id="home" class="active" href="home.php">Hem</a>
       <div class="dropdown">
         <button id="thedogs" class="dropbtn" onclick="myFunction()">
           Våra hundar
         </button>
         <div class="dropdown-content" id="myDropdown">
-          <a id="thepuppies" href="puppies.html">Valpar</a>
-          <a id="adults" href="adults.html">Fullvuxna</a>
-          <a id="seniors" href="seniors.html">Seniorer</a>
+          <a id="thepuppies" href="puppies.php">Valpar</a>
+          <a id="adults" href="adults.php">Fullvuxna</a>
+          <a id="seniors" href="seniors.php">Seniorer</a>
         </div>
       </div>
-      <a id="terms" href="terms.html">Adoptionsvillkor</a>
+      <a id="terms" href="terms.php">Adoptionsvillkor</a>
       <div class="dropdown">
         <button id="support" class="dropbtn" onclick="support()">
           Stöd oss
         </button>
         <div class="dropdown-content" id="myDropdown2">
-          <a id="membership" href="membership.html">Medlemskap</a>
-          <a id="donations" href="donations.html">Donationer</a>
+          <a id="membership" href="membership.php">Medlemskap</a>
+          <a id="donations" href="donations.php">Donationer</a>
         </div>
       </div>
-      <a id="aboutus" href="about.html">Om oss</a>
-      <a id="contactus" href="contact.html">Kontakt</a>
+      <a id="aboutus" href="about.php">Om oss</a>
+      <a id="contactus" href="contact.php">Kontakt</a>
     </div>
 
       <div class="paper">
