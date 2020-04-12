@@ -49,16 +49,16 @@
 
     <div class="row">
       <a href="atlaz.php">
-        <img class="dog" src="atlaz.jpg" alt="Dog">
+        <img id="atlaz" class="dog" src="atlaz.jpg" alt="Dog">
       </a>
       <a href="mina.php">
-        <img class="dog" src="mina.jpg" alt="Dog"> <br>
+        <img id="mina" class="dog" src="mina.jpg" alt="Dog"> <br>
       </a>
       <a href="pepper.php">
-        <img class="dog" src="pepper.jpg" alt="Dog">
+        <img id="pepper" class="dog" src="pepper.jpg" alt="Dog">
       </a>
       <a href="zelda.php">
-        <img class="dog" src="zelda.jpg" alt="Dog">
+        <img id="zelda" class="dog" src="zelda.jpg" alt="Dog">
       </a>
     </div>
   </div>

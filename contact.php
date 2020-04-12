@@ -67,18 +67,18 @@
     <div class="container">
       <form action="mailto:a17celal@student.his.se" method="post">
         <label>Namn</label>
-        <input type="text" name="name" placeholder="Ditt namn..">
+        <input id="name" type="text" name="name" placeholder="Ditt namn..">
 
         <label>E-post</label>
-        <input type="text" name="email" placeholder="Din e-post..">
+        <input id="email" type="text" name="email" placeholder="Din e-post..">
 
         <label>Mobilnummer</label>
-        <input type="text" name="phone" placeholder="Ditt mobilnummer..">
+        <input id="phone" type="text" name="phone" placeholder="Ditt mobilnummer..">
 
         <label>Ämne</label>
         <textarea style="font-family: arial;" id="subject" name="subject" placeholder="Skriv någonting.."></textarea>
 
-        <input type="submit" value="Submit">
+        <input id="submit2" type="submit" value="Submit">
       </form>
     </div>
   </div>

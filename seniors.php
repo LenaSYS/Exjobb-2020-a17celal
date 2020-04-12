@@ -48,16 +48,16 @@
 
         <div class="row">
             <a href="stella.php">
-                <img class="dog" src="stella.jpg" alt="Senior dog">
+                <img id="stella" class="dog" src="stella.jpg" alt="Senior dog">
             </a>
             <a href="leia.php">
-                <img class="dog" src="leia.jpg" alt="Senior dog"> <br>
+                <img id="leia" class="dog" src="leia.jpg" alt="Senior dog"> <br>
             </a>
             <a href="viggo.php">
-                <img class="dog" src="viggo.jpg" alt="Senior dog">
+                <img id="viggo" class="dog" src="viggo.jpg" alt="Senior dog">
             </a>
             <a href="enzo.php">
-                <img class="dog" src="enzo.jpg" alt="Senior dog">
+                <img id="enzo" class="dog" src="enzo.jpg" alt="Senior dog">
             </a>
         </div>
       </div>
