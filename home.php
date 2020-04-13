@@ -12,38 +12,38 @@
 
 <body>
     <div class="navbar">
-        <a id="home" class="active" href="home.html">Hem</a>
+        <a id="home" class="active" href="home.php">Hem</a>
         <div class="dropdown">
             <button id="thedogs" class="dropbtn" onclick="myFunction()">
                 Våra hundar
             </button>
             <div class="dropdown-content" id="myDropdown">
-                <a id="isor" href="isor.html">Isor</a>
-                <a id="pandora" href="pandora.html">Pandora</a>
-                <a id="allie" href="allie.html">Allie</a>
-                <a id="titus" href="titus.html">Titus</a>
-                <a id="atlaz" href="atlaz.html">Altaz</a>
-                <a id="mina" href="mina.html">Mina</a>
-                <a id="pepper" href="pepper.html">Pepper</a>
-                <a id="zelda" href="zelda.html">Zelda</a>
-                <a id="stella" href="stella.html">Stella</a>
-                <a id="leia" href="leia.html">Leia</a>
-                <a id="viggo" href="viggo.html">Viggo</a>
-                <a id="enzo" href="enzo.html">Enzo</a>
+                <a id="isor" href="isor.php">Isor</a>
+                <a id="pandora" href="pandora.php">Pandora</a>
+                <a id="allie" href="allie.php">Allie</a>
+                <a id="titus" href="titus.php">Titus</a>
+                <a id="atlaz" href="atlaz.php">Altaz</a>
+                <a id="mina" href="mina.php">Mina</a>
+                <a id="pepper" href="pepper.php">Pepper</a>
+                <a id="zelda" href="zelda.php">Zelda</a>
+                <a id="stella" href="stella.php">Stella</a>
+                <a id="leia" href="leia.php">Leia</a>
+                <a id="viggo" href="viggo.php">Viggo</a>
+                <a id="enzo" href="enzo.php">Enzo</a>
             </div>
         </div>
-        <a id="terms" href="terms.html">Adoptionsvillkor</a>
+        <a id="terms" href="terms.php">Adoptionsvillkor</a>
         <div class="dropdown">
             <button id="support" class="dropbtn" onclick="support()">
                 Stöd oss
             </button>
             <div class="dropdown-content" id="myDropdown2">
-                <a id="membership" href="membership.html">Medlemskap</a>
-                <a id="donations" href="donations.html">Donationer</a>
+                <a id="membership" href="membership.php">Medlemskap</a>
+                <a id="donations" href="donations.php">Donationer</a>
             </div>
         </div>
-        <a id="aboutus" href="about.html">Om oss</a>
-        <a id="contactus" href="contact.html">Kontakt</a>
+        <a id="aboutus" href="about.php">Om oss</a>
+        <a id="contactus" href="contact.php">Kontakt</a>
     </div>
 
     <div class="paper">
