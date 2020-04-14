@@ -12,13 +12,14 @@
 
 <body>
     <div class="navbar">
-        <a id="home" href="home.html">Hem</a>
-        <a class="active" id="thedogs" href="dogs.html">Våra hundar</a>
-        <a id="terms" href="terms.html">Adoptionsvillkor</a>
-        <a id="support" href="support.html">Stöd oss</a>
-        <a id="aboutus" href="about.html">Om oss</a>
-        <a id="contactus" href="contact.html">Kontakt</a>
+        <a id="home" href="home.php">Hem</a>
+        <a class="active" id="thedogs" href="dogs.php">Våra hundar</a>
+        <a id="terms" href="terms.php">Adoptionsvillkor</a>
+        <a id="support" href="support.php">Stöd oss</a>
+        <a id="aboutus" href="about.php">Om oss</a>
+        <a id="contactus" href="contact.php">Kontakt</a>
     </div>
+
 
     <div class="paper">
         <div class="rubrik-bakgrund">
@@ -30,16 +31,17 @@
         </p>
 
         <div class="row">
-            <a href="puppies.html">
+            <a href="puppies.php">
                 <img id="thepuppies" class="dog" src="pandora-text.jpg" alt="Dog">
             </a>
-            <a href="adults.html">
+            <a href="adults.php">
                 <img id="adults" class="dog" src="mina-text.jpg" alt="Dog"> <br>
             </a>
-            <a href="seniors.html">
+            <a href="seniors.php">
                 <img id="seniors" class="dog" src="viggo-text.jpg" alt="Dog">
             </a>
         </div>
     </div>
 </body>
+
 </html>

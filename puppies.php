@@ -12,12 +12,12 @@
 
 <body>
     <div class="navbar">
-        <a href="home.html">Hem</a>
-        <a class="active" href="dogs.html">Våra hundar</a>
-        <a href="terms.html">Adoptionsvillkor</a>
-        <a href="support.html">Stöd oss</a>
-        <a href="about.html">Om oss</a>
-        <a href="contact.html">Kontakt</a>
+        <a id="home" href="home.php">Hem</a>
+        <a class="active" id="thedogs" href="dogs.php">Våra hundar</a>
+        <a id="terms" href="terms.php">Adoptionsvillkor</a>
+        <a id="support" href="support.php">Stöd oss</a>
+        <a id="aboutus" href="about.php">Om oss</a>
+        <a id="contactus" href="contact.php">Kontakt</a>
     </div>
 
     <div class="paper">
@@ -32,16 +32,16 @@
         </p>
 
         <div class="row">
-            <a href="isor.html">
+            <a href="isor.php">
                 <img id="isor" class="dog" src="isor.jpg" alt="Puppy">
             </a>
-            <a href="pandora.html">
+            <a href="pandora.php">
                 <img id="pandora" class="dog" src="pandora.jpg" alt="Puppy"> <br>
             </a>
-            <a href="allie.html">
+            <a href="allie.php">
                 <img id="allie" class="dog" src="allie.jpg" alt="Puppy">
             </a>
-            <a href="titus.html">
+            <a href="titus.php">
                 <img id="titus" class="dog" src="titus.jpg" alt="Puppy">
             </a>
         </div>

@@ -11,12 +11,12 @@
 
 <body>
     <div class="navbar">
-        <a class="active" id="home" href="home.html">Hem</a>
-        <a id="thedogs" href="dogs.html">Våra hundar</a>
-        <a id="terms" href="terms.html">Adoptionsvillkor</a>
-        <a id="support" href="support.html">Stöd oss</a>
-        <a id="aboutus" href="about.html">Om oss</a>
-        <a id="contactus" href="contact.html">Kontakt</a>
+        <a class="active" id="home" href="home.php">Hem</a>
+        <a id="thedogs" href="dogs.php">Våra hundar</a>
+        <a id="terms" href="terms.php">Adoptionsvillkor</a>
+        <a id="support" href="support.php">Stöd oss</a>
+        <a id="aboutus" href="about.php">Om oss</a>
+        <a id="contactus" href="contact.php">Kontakt</a>
     </div>
 
     <div class="paper">
@@ -30,8 +30,7 @@
             Att adoptera ett djur förändrar inte hela världen. Men det kan förändra någons hela värld.<br><br>
 
             Hundjouren är en ideell förening som räddar och omplacerar avlivningshotade hundar från Sverige.
-            Föreningen grundades 2012 med ett mål – att rädda avlivningshotade hundar och ge dem en andra chans till ett
-            lyckligt och kärleksfullt liv.
+            Föreningen grundades 2012 med ett mål – att rädda avlivningshotade hundar och ge dem en andra chans till ett lyckligt och kärleksfullt liv.
             Vill du hjälpa en hund, samtidigt som du får en kär familjemedlem?
             Då har du hittat rätt!
         </p>
