@@ -13,9 +13,13 @@
   <script>
     function loaded() {
       $(".navbar").click(function(e) {
-        alert(e.target.id);
-        alert("<?php echo tofile("www") ?>");
-        <?php echo tofile("<script> e.target.id</script>") ?>
+        var datum = new Date();
+        datum = datum.toISOString();
+        $.post("../othertake.php", {
+          itemid: e.target.id,
+          pageurl: window.location.href,
+          datum: datum
+        });
       });
     }
   </script>
@@ -24,13 +28,6 @@
 </head>
 
 <body onload="loaded()">
-  <?php
-  function tofile($test)
-  {
-    //$pathToFile = 'data.txt';
-    echo file_put_contents("data.txt", $test, FILE_APPEND);
-  }
-  ?>
 
   <div class="navbar">
     <a id="home" class="active" href="home.php">Hem</a>
