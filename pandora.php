@@ -2,51 +2,52 @@
 <html lang="en">
 
 <head>
-    <title>Atlaz</title>
+    <title>Pandora</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="getID.js"></script>
 </head>
 
-<body>
+<body onload="loaded()">
     <div class="sidenav">
-        <a href="home.html">Hem</a>
-        <button class="dropdown-btn">Våra hundar
+        <a id="home" href="home.php">Hem</a>
+        <button id="thedogs" class="dropdown-btn">Våra hundar
         </button>
         <div class="dropdown-container">
-            <a href="puppies.html">Valpar</a>
-            <a style="background-color: #f9bfe5;" href="adults.html">Fullvuxna</a>
-            <a href="seniors.html">Seniorer</a>
+            <a style="background-color: #f9bfe5;" id="thepuppies" href="puppies.php">Valpar</a>
+            <a id="adults" href="adults.php">Fullvuxna</a>
+            <a id="seniors" href="seniors.php">Seniorer</a>
         </div>
-        <a href="terms.html">Adoptionsvillkor</a>
-        <button class="dropdown-btn">Stöd oss
+        <a id="terms" href="terms.php">Adoptionsvillkor</a>
+        <button id="support" class="dropdown-btn">Stöd oss
         </button>
         <div class="dropdown-container">
-            <a href="membership.html">Medlemskap</a>
-            <a href="donations.html">Donationer</a>
+            <a id="membership" href="membership.php">Medlemskap</a>
+            <a id="donations" href="donations.php">Donationer</a>
         </div>
-        <a href="about.html">Om oss</a>
-        <a href="contact.html">Kontakt</a>
+        <a id="aboutus" href="about.php">Om oss</a>
+        <a id="contactus" href="contact.php">Kontakt</a>
     </div>
 
     <div class="paper">
         <div class="rubrik-bakgrund">
-            <h1 class="rubrik">Atlaz</h1>
+            <h1 class="rubrik">Pandora</h1>
         </div>
 
-        <img class="description-pic" src="Atlaz.jpg" alt="Atlaz">
+        <img class="description-pic" src="pandora.jpg" alt="Pandora">
         <p class="description-text">
-            Ålder: 2 år <br>
-            Ras: Cocker spaniel/golden retriever <br>
-            Kön: Hane <br>
+            Ålder: 5 mån <br>
+            Ras: Landseer/golden retriever/tollare/siberian husky <br>
+            Kön: Hona <br>
             Fungerar med andra hundar: Ja <br>
             Fungerar med katter: Ja <br>
             Beskrivning: <br>
-            Den här otroligt stiliga killen heter Atlaz och är en underbar hund på 2 år.
-            Han älskar människor och hälsar glatt på alla han möter. Han är trygg i sig själv och både trevlig och
-            tillgiven.
-            Han tycker om att gosa och bli klappad på.
+            Pandora hittades övergiven ute mitt i vintern. Hon togs till ett rescue och nu bor hon i ett jourhem.
+            Pandora är en kärleksfull ung liten tjej som trivs jättebra med andra hundar och funkar bra med katter.
+            I jourhemmet så lär hon sig bra grundläggande kunskaper.
         </p>
     </div>
 
@@ -57,7 +58,7 @@
         var i;
 
         for (i = 0; i < dropdown.length; i++) {
-            dropdown[i].addEventListener("click", function () {
+            dropdown[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var dropdownContent = this.nextElementSibling;
                 if (dropdownContent.style.display === "block") {

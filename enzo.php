@@ -2,50 +2,51 @@
 <html lang="en">
 
 <head>
-    <title>Isor</title>
+    <title>Enzo</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="getID.js"></script>
 </head>
 
-<body>
+<body onload="loaded()">
     <div class="sidenav">
-        <a href="home.html">Hem</a>
-        <button class="dropdown-btn">Våra hundar
+        <a id="home" href="home.php">Hem</a>
+        <button id="thedogs" class="dropdown-btn">Våra hundar
         </button>
         <div class="dropdown-container">
-            <a style="background-color: #f9bfe5;" href="puppies.html">Valpar</a>
-            <a href="adults.html">Fullvuxna</a>
-            <a href="seniors.html">Seniorer</a>
+            <a id="thepuppies" href="puppies.php">Valpar</a>
+            <a id="adults" href="adults.php">Fullvuxna</a>
+            <a style="background-color: #f9bfe5;" id="seniors" href="seniors.php">Seniorer</a>
         </div>
-        <a href="terms.html">Adoptionsvillkor</a>
-        <button class="dropdown-btn">Stöd oss
+        <a id="terms" href="terms.php">Adoptionsvillkor</a>
+        <button id="support" class="dropdown-btn">Stöd oss
         </button>
         <div class="dropdown-container">
-            <a href="membership.html">Medlemskap</a>
-            <a href="donations.html">Donationer</a>
+            <a id="membership" href="membership.php">Medlemskap</a>
+            <a id="donations" href="donations.php">Donationer</a>
         </div>
-        <a href="about.html">Om oss</a>
-        <a href="contact.html">Kontakt</a>
+        <a id="aboutus" href="about.php">Om oss</a>
+        <a id="contactus" href="contact.php">Kontakt</a>
     </div>
 
     <div class="paper">
         <div class="rubrik-bakgrund">
-            <h1 class="rubrik">Isor</h1>
+            <h1 class="rubrik">Enzo</h1>
         </div>
 
-        <img class="description-pic" src="isor.jpg" alt="Isor">
+        <img class="description-pic" src="enzo.jpg" alt="Enzo">
         <p class="description-text">
-            Ålder: 3 mån <br>
-            Ras: Rottweiler/tax <br>
+            Ålder: 7 år <br>
+            Ras: Pomeranian chihuahua <br>
             Kön: Hane <br>
             Fungerar med andra hundar: Ja <br>
-            Fungerar med katter: Ja <br>
-            Beskrivning: <br>
-            Isor är en underbar liten kille som söker ett för-alltid-hem!
-            Han är en glad och busig kille som kommer bli ett härligt tillskott till den familj som får adoptera honom.
-            Isor är väldigt charmig och många faller pladask för hans fina ögon och härliga personlighet.
+            Fungerar med katter: Nej <br>
+            Här kommer Enzo en ljuvlig liten seniorkille på 10 kilo som söker ett lugnt hem.
+            Enzo älskar sina långpromenader och är pigg och glad utomhus, i hundmöten vill han gärna hälsa och leka.
+            Han delar gärna hem med en snäll hundkompis.
         </p>
     </div>
 
@@ -56,7 +57,7 @@
         var i;
 
         for (i = 0; i < dropdown.length; i++) {
-            dropdown[i].addEventListener("click", function () {
+            dropdown[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var dropdownContent = this.nextElementSibling;
                 if (dropdownContent.style.display === "block") {
