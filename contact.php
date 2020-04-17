@@ -6,11 +6,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="getID.js"></script>
   <script src="js.js"></script>
 </head>
 
-<body>
+<body onload="loaded()">
   <div class="navbar">
     <a id="home" href="home.php">Hem</a>
     <div class="dropdown">
@@ -67,13 +69,13 @@
     <div class="container">
       <form action="mailto:a17celal@student.his.se" method="post">
         <label>Namn</label>
-        <input id="name" type="text" name="name" placeholder="Ditt namn..">
+        <input id="name2" type="text" name="name" placeholder="Ditt namn..">
 
         <label>E-post</label>
-        <input id="email" type="text" name="email" placeholder="Din e-post..">
+        <input id="email2" type="text" name="email" placeholder="Din e-post..">
 
         <label>Mobilnummer</label>
-        <input id="phone" type="text" name="phone" placeholder="Ditt mobilnummer..">
+        <input id="phone2" type="text" name="phone" placeholder="Ditt mobilnummer..">
 
         <label>Ämne</label>
         <textarea style="font-family: arial;" id="subject" name="subject" placeholder="Skriv någonting.."></textarea>
