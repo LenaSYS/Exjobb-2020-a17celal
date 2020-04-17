@@ -6,11 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="getID.js"></script>
     <script src="js.js"></script>
 </head>
 
-<body>
+<body onload="loaded()">
     <div class="navbar">
         <a id="home" class="active" href="home.php">Hem</a>
         <div class="dropdown">
@@ -54,17 +56,12 @@
         <img id="dogs" src="dogs.jpg" alt="Dogs">
 
         <p class="intro">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat blandit arcu, sed consequat
-            dui
-            fermentum sed. Nullam nec diam tortor. Morbi sodales, ante ac euismod feugiat, massa justo vulputate lectus,
-            nec auctor arcu turpis vel eros. Curabitur vel scelerisque arcu, quis suscipit nunc. Aliquam vitae ipsum
-            est.
-            Vestibulum mattis pharetra eleifend. Maecenas interdum ullamcorper massa id congue. Fusce varius hendrerit
-            mattis. Ut ac ex nibh. In ultrices tortor vitae sollicitudin imperdiet. Donec tristique tempus nibh, non
-            ultricies metus. Aliquam erat volutpat. Proin velit mi, luctus a mi sed, commodo ullamcorper ante. Donec
-            pulvinar erat at urna lobortis porttitor. Suspendisse commodo nunc augue, id molestie urna malesuada ac.
-            Donec
-            varius orci nec sollicitudin pharetra.
+            Att adoptera ett djur förändrar inte hela världen. Men det kan förändra någons hela värld.<br><br>
+
+            Hundjouren är en ideell förening som räddar och omplacerar avlivningshotade hundar från Sverige.
+            Föreningen grundades 2012 med ett mål – att rädda avlivningshotade hundar och ge dem en andra chans till ett lyckligt och kärleksfullt liv.
+            Vill du hjälpa en hund, samtidigt som du får en kär familjemedlem?
+            Då har du hittat rätt!
         </p>
     </div>
 </body>
