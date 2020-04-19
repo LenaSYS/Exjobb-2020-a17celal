@@ -53,6 +53,7 @@
             Kön: Hane <br>
             Fungerar med andra hundar: Ja <br>
             Fungerar med katter: Nej <br>
+            Beskrivning: <br>
             Här kommer Enzo en ljuvlig liten seniorkille på 10 kilo som söker ett lugnt hem.
             Enzo älskar sina långpromenader och är pigg och glad utomhus, i hundmöten vill han gärna hälsa och leka.
             Han delar gärna hem med en snäll hundkompis.
