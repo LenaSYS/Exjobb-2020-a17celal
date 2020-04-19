@@ -46,7 +46,7 @@
             <h1 class="rubrik">Pepper</h1>
         </div>
 
-        <img class="description-pic" src="Pepper.jpg" alt="Pepper">
+        <img class="description-pic" src="pepper.jpg" alt="Pepper">
         <p class="description-text">
             Ålder: 2 år <br>
             Ras: Siberian husky <br>
