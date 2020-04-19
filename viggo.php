@@ -44,6 +44,7 @@
             Kön: Hane <br>
             Fungerar med andra hundar: Ja <br>
             Fungerar med katter: Ja <br>
+            Beskrivning: <br>
             Viggo vet hur man njuter av livet!
             Han är glad och full av energi och när man träffar honom skulle man aldrig gissa på att han är 7 år!
             Han älskar långa promenader och springer gärna lös på något lämpligt ställe så han kan få göra sina
