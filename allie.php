@@ -17,18 +17,18 @@
         <button id="thedogs" class="dropdown-btn">Våra hundar
         </button>
         <div class="dropdown-container">
-            <a id="isor" href="isor.php">Isor</a>
-            <a id="pandora" href="pandora.php">Pandora</a>
             <a style="background-color: #f9bfe5;" id="allie" href="allie.php">Allie</a>
-            <a id="titus" href="titus.php">Titus</a>
             <a id="atlaz" href="atlaz.php">Altaz</a>
-            <a id="mina" href="mina.php">Mina</a>
-            <a id="pepper" href="pepper.php">Pepper</a>
-            <a id="zelda" href="zelda.php">Zelda</a>
-            <a id="stella" href="stella.php">Stella</a>
-            <a id="leia" href="leia.php">Leia</a>
-            <a id="viggo" href="viggo.php">Viggo</a>
             <a id="enzo" href="enzo.php">Enzo</a>
+            <a id="isor" href="isor.php">Isor</a>
+            <a id="leia" href="leia.php">Leia</a>
+            <a id="mina" href="mina.php">Mina</a>
+            <a id="pandora" href="pandora.php">Pandora</a>
+            <a id="pepper" href="pepper.php">Pepper</a>
+            <a id="stella" href="stella.php">Stella</a>
+            <a id="titus" href="titus.php">Titus</a>
+            <a id="viggo" href="viggo.php">Viggo</a>
+            <a id="zelda" href="zelda.php">Zelda</a>
         </div>
         <a id="terms" href="terms.php">Adoptionsvillkor</a>
         <button id="support" class="dropdown-btn">Stöd oss
