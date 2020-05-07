@@ -37,7 +37,7 @@
             <h1 class="rubrik">Allie</h1>
         </div>
 
-        <img class="description-pic" src="Allie.jpg" alt="Pandora">
+        <img class="description-pic" src="allie.jpg" alt="Allie">
         <p class="description-text">
             Ålder: 3 mån <br>
             Ras: Golden retriever <br>
