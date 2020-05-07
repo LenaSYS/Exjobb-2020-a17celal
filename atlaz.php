@@ -27,7 +27,7 @@
             <h1 class="rubrik">Atlaz</h1>
         </div>
 
-        <img class="description-pic" src="Atlaz.jpg" alt="Atlaz">
+        <img class="description-pic" src="atlaz.jpg" alt="Atlaz">
         <p class="description-text">
             Ålder: 2 år <br>
             Ras: Cocker spaniel/golden retriever <br>
